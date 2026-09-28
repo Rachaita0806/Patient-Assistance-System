@@ -1,0 +1,45 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Severity_Analysis_Agent",
+    "kind": "process",
+    "type": "agent",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "9096853d-83f7-455a-9304-76246bb902f2",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Severity_Analysis_Agent",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Agent",
+      "name": "Severity_Analysis_Agent",
+      "package": {
+        "key": "e612f2c8-f2c8-4d1a-83d7-abb229f48a2d"
+      },
+      "packageName": "Patient.Assistance.System.agent.Severity_Analysis_Agent",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "targetFrameworkValue": "Portable",
+      "agentMemory": false,
+      "isConversational": false,
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "e30b2fd1-e69e-44f2-ba45-bf030eee9942",
+    "files": []
+  }
+}

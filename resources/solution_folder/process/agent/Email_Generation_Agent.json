@@ -1,0 +1,45 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Email_Generation_Agent",
+    "kind": "process",
+    "type": "agent",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "b7c87e73-b2e2-43e6-b055-f921e5baf670",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Email_Generation_Agent",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Agent",
+      "name": "Email_Generation_Agent",
+      "package": {
+        "key": "50cb7ea4-cdda-4506-986f-88e4356de0ad"
+      },
+      "packageName": "Patient.Assistance.System.agent.Email_Generation_Agent",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "targetFrameworkValue": "Portable",
+      "agentMemory": false,
+      "isConversational": false,
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "b7c2da4d-c23a-4f65-9edf-1714ba861018",
+    "files": []
+  }
+}

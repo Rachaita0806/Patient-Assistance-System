@@ -1,0 +1,25 @@
+{
+  "$resourceType": "context",
+  "name": "Patient symptoms Severity",
+  "description": "",
+  "folderPath": "solution_folder",
+  "indexName": "Patient symptoms Severity",
+  "id": "a2e83be9-2580-49a1-9226-823448dcbf42",
+  "referenceKey": "1226d912-dafa-4f3f-d771-08df126a35df",
+  "settings": {
+    "query": {
+      "description": "The query for the Semantic strategy.",
+      "variant": "dynamic"
+    },
+    "folderPathPrefix": {
+      "variant": "static"
+    },
+    "threshold": 1,
+    "resultCount": 3,
+    "retrievalMode": "semantic",
+    "fileExtension": {
+      "value": "All"
+    }
+  },
+  "contextType": "index"
+}

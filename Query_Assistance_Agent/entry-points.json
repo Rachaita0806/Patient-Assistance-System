@@ -1,0 +1,80 @@
+{
+  "$schema": "https://cloud.uipath.com/draft/2024-12/entry-point",
+  "$id": "entry-points.json",
+  "entryPoints": [
+    {
+      "filePath": "/content/agent.json",
+      "type": "agent",
+      "uniqueId": "c6c1a4af-8408-4319-904d-745740a27ef6",
+      "input": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "The patient's name as provided in the intake information. Source: intake form. If unavailable or empty, do not guess; use \"Not provided\" in the summary."
+          },
+          "age": {
+            "type": "integer",
+            "description": "The patient's age in whole years as provided in the intake information. Source: intake form. If unavailable, do not infer; use \"Not provided\" in the summary."
+          },
+          "gender": {
+            "type": "string",
+            "description": "The patient's gender as provided in the intake information. Source: intake form. If unavailable or empty, do not infer; use \"Not provided\" in the summary."
+          },
+          "symptoms": {
+            "type": "string",
+            "description": "The symptoms reported by the patient, preserving the patient's original meaning. Source: intake form. If unavailable or empty, use \"Not provided\"; do not add details."
+          },
+          "symptomsDuration": {
+            "type": "string",
+            "description": "The duration of the reported symptoms as provided by the patient. Source: intake form. If unavailable or empty, use \"Not provided\"; do not infer a duration."
+          },
+          "email": {
+            "type": "string",
+            "description": "The patient's email address as provided in the intake information. Source: intake form. If unavailable or empty, do not guess; use \"Not provided\" in the summary."
+          }
+        },
+        "required": [
+          "name",
+          "age",
+          "gender",
+          "symptoms",
+          "symptomsDuration",
+          "email"
+        ]
+      },
+      "output": {
+        "type": "object",
+        "properties": {
+          "patientInformation": {
+            "type": "string",
+            "description": "A concise identification line containing the patient's name, age, gender, and email from the intake inputs. Replace any unavailable or empty value with \"Not provided\"."
+          },
+          "reportedSymptoms": {
+            "type": "string",
+            "description": "A straightforward restatement of the symptoms the patient reported, preserving the original meaning without interpretation or added details. Use \"Not provided\" when empty or unavailable."
+          },
+          "symptomDuration": {
+            "type": "string",
+            "description": "A clear, simple statement of the duration reported by the patient. Do not infer or expand the duration; use \"Not provided\" when empty or unavailable."
+          },
+          "generalObservation": {
+            "type": "string",
+            "description": "One brief, factual, neutral observation based only on the supplied symptoms and duration, such as noting that the patient reported symptoms for the stated period. Do not interpret causes or conditions."
+          },
+          "disclaimer": {
+            "type": "string",
+            "description": "A brief statement that the summary is for informational purposes only, is not a medical diagnosis, and advises the patient to consult a licensed healthcare professional for medical advice."
+          }
+        },
+        "required": [
+          "patientInformation",
+          "reportedSymptoms",
+          "symptomDuration",
+          "generalObservation",
+          "disclaimer"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "escalationAppPrompt": "Create a UiPath Action Schema for a Patient Escalation workflow with two outcomes, Approve and Reject, and six required input properties: PatientName (String), Age (Int32), Gender (String), Symptoms (String), SymptomsDuration (String), and Severity (String). Use clear descriptions for each field and do not add any additional properties.",
+  "appUsageType": "1",
+  "isLocalWorkspace": "false",
+  "projectType": "Process"
+}

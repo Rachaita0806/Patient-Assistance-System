@@ -1,0 +1,12 @@
+{
+  "ProjectAppMetadata": {
+    "PatientEscalationFormPage_Reject_click.xaml": {
+      "AppFormId": "id69b0ab4dbcbe4d6cbecd1d3ef82cb2d2",
+      "IsAppQueryBuilder": null
+    },
+    "PatientEscalationFormPage_Approve_click.xaml": {
+      "AppFormId": "id69b0ab4dbcbe4d6cbecd1d3ef82cb2d2",
+      "IsAppQueryBuilder": null
+    }
+  }
+}

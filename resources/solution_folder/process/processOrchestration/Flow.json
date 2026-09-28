@@ -1,0 +1,43 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Flow",
+    "kind": "process",
+    "type": "processOrchestration",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "07c16181-3969-442b-bb6f-d3716631efe2",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Flow",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "ProcessOrchestration",
+      "name": "Flow",
+      "package": {
+        "key": "b2eebc35-0b20-488e-b778-229ef5fa66fc"
+      },
+      "packageName": "Patient.Assistance.System.agentic.Flow",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "targetFrameworkValue": "Portable",
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "5a5eda51-1d1f-4c6d-9242-4ab167f5892e",
+    "files": []
+  }
+}

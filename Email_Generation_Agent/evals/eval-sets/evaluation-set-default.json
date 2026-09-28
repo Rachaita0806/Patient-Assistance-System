@@ -1,0 +1,44 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "d845f880-2313-453d-a1f5-39db2451455b",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "timeoutMinutes": 20,
+  "evaluatorRefs": [
+    "d8496b4c-4194-4572-a0f9-57b4f4f2da2e"
+  ],
+  "evaluations": [
+    {
+      "id": "8e7e8e0d-7221-4c3e-a565-423dd6814bc2",
+      "name": "Debug Run 9/25/2026, 10:21:46 PM",
+      "inputs": {
+        "Name": "Marisol Vega",
+        "Age": 47,
+        "Gender": "Female",
+        "Symptoms": "Persistent dry cough and mild shortness of breath when climbing stairs",
+        "Symptoms_Duration": "10 days",
+        "Severity": "Moderate",
+        "Action": "Schedule an appointment with your primary care provider within the next 24 hours."
+      },
+      "expectedOutput": {
+        "Email_Body": "Name: Marisol Vega\nAge: 47\nGender: Female\nSymptoms: Persistent dry cough and mild shortness of breath when climbing stairs\nSymptoms Duration: 10 days\nSeverity: Moderate\nRecommended Action: Schedule an appointment with your primary care provider within the next 24 hours.\nBest regards,\nPatient Assistance System."
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "d845f880-2313-453d-a1f5-39db2451455b",
+      "createdAt": "2026-09-25T16:51:46.781Z",
+      "updatedAt": "2026-09-25T16:51:46.781Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false,
+  "createdAt": "2026-09-25T16:41:41.393Z",
+  "updatedAt": "2026-09-25T16:51:46.781Z",
+  "category": 1
+}

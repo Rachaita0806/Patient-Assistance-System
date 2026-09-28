@@ -1,0 +1,98 @@
+{
+  "version": "2.0",
+  "resources": [
+    {
+      "resource": "process",
+      "key": "Query_Assistance_Agent",
+      "id": "processQuery_Assistance_Agent",
+      "value": {
+        "name": {
+          "defaultValue": "Query_Assistance_Agent",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Query_Assistance_Agent",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "Severity_Analysis_Agent",
+      "id": "processSeverity_Analysis_Agent",
+      "value": {
+        "name": {
+          "defaultValue": "Severity_Analysis_Agent",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Severity_Analysis_Agent",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "app",
+      "key": "DoctorApprovalApp",
+      "id": "appDoctorApprovalApp",
+      "value": {
+        "name": {
+          "defaultValue": "DoctorApprovalApp",
+          "isExpression": false,
+          "displayName": "App name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "DoctorApprovalApp",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "Email_Generation_Agent",
+      "id": "processEmail_Generation_Agent",
+      "value": {
+        "name": {
+          "defaultValue": "Email_Generation_Agent",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Email_Generation_Agent",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true",
+        "subType": "Agent"
+      }
+    },
+    {
+      "resource": "process",
+      "key": "Send_Email",
+      "id": "processSend_Email",
+      "value": {
+        "name": {
+          "defaultValue": "Send_Email",
+          "isExpression": false,
+          "displayName": "Process name"
+        }
+      },
+      "metadata": {
+        "ActivityName": "Send_Email",
+        "BindingsVersion": "2.2",
+        "DisplayLabel": "name",
+        "SolutionsSupport": "true"
+      }
+    }
+  ]
+}

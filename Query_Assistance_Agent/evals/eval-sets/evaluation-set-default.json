@@ -1,0 +1,47 @@
+{
+  "fileName": "evaluation-set-default.json",
+  "id": "650be664-df7e-45fa-8819-4b678ed401d2",
+  "name": "Default Evaluation Set",
+  "batchSize": 10,
+  "timeoutMinutes": 20,
+  "evaluatorRefs": [
+    "b161aa25-18b0-4af8-a17a-a135514f56ee"
+  ],
+  "evaluations": [
+    {
+      "id": "d0c02142-a373-49b1-a8e7-fb9182231236",
+      "name": "Debug Run 9/23/2026, 11:02:54 PM",
+      "inputs": {
+        "name": "Marisol Vega",
+        "age": 42,
+        "gender": "Female",
+        "symptoms": "Intermittent headaches and neck stiffness, especially in the afternoon.",
+        "symptomsDuration": "About two weeks",
+        "email": "marisol.vega@example.com"
+      },
+      "expectedOutput": {
+        "patientInformation": "Marisol Vega, 42, Female, marisol.vega@example.com",
+        "reportedSymptoms": "Intermittent headaches and neck stiffness, especially in the afternoon.",
+        "symptomDuration": "About two weeks",
+        "generalObservation": "The patient reported symptoms for about two weeks.",
+        "disclaimer": "This summary is for informational purposes only, does not constitute a medical diagnosis, and the patient should consult a licensed healthcare professional for medical advice."
+      },
+      "expectedAgentBehavior": "",
+      "simulationInstructions": "",
+      "simulateInput": false,
+      "inputGenerationInstructions": "",
+      "simulateTools": false,
+      "evalSetId": "650be664-df7e-45fa-8819-4b678ed401d2",
+      "createdAt": "2026-09-23T17:32:54.517Z",
+      "updatedAt": "2026-09-23T17:32:54.517Z",
+      "source": "firstSuccessfulRun"
+    }
+  ],
+  "modelSettings": [],
+  "agentMemoryEnabled": false,
+  "agentMemorySettings": [],
+  "lineByLineEvaluation": false,
+  "createdAt": "2026-09-23T17:22:19.824Z",
+  "updatedAt": "2026-09-23T17:32:54.517Z",
+  "category": 1
+}

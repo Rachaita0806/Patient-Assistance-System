@@ -1,0 +1,23 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Email_Generation_Agent",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "b7c87e73-b2e2-43e6-b055-f921e5baf670",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "Email_Generation_Agent"
+    },
+    "locks": [],
+    "key": "50cb7ea4-cdda-4506-986f-88e4356de0ad",
+    "files": []
+  }
+}

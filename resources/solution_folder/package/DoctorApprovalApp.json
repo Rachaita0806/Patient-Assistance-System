@@ -1,0 +1,23 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DoctorApprovalApp",
+    "kind": "package",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "d520db28-b9da-4960-a9ea-22b6088eab58",
+    "isOverridable": true,
+    "dependencies": [],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "DoctorApprovalApp"
+    },
+    "locks": [],
+    "key": "a64631d3-ac53-449c-877a-6cbed1458f69",
+    "files": []
+  }
+}

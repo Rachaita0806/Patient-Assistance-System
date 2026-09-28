@@ -1,0 +1,49 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "Send_Email",
+    "kind": "process",
+    "type": "process",
+    "apiVersion": "orchestrator.uipath.com/v1",
+    "projectKey": "f28e6c09-c9a4-4965-a4f6-8683ebc89753",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "Send_Email",
+        "kind": "package"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "type": "Process",
+      "name": "Send_Email",
+      "package": {
+        "key": "1400bdc9-b470-4ae8-b286-e68edfa7a6e1"
+      },
+      "packageName": "Patient.Assistance.System.process.Send_Email",
+      "jobPriority": "Medium",
+      "hiddenForAttendedUser": false,
+      "alwaysRunning": false,
+      "autoStartProcess": false,
+      "jobRecording": "Disabled",
+      "targetFrameworkValue": "Portable",
+      "duration": 40,
+      "frequency": 500,
+      "quality": 100,
+      "remoteControlAccess": "None",
+      "retentionAction": "Delete",
+      "retentionPeriod": 30,
+      "staleRetentionAction": "Delete",
+      "staleRetentionPeriod": 180,
+      "tags": []
+    },
+    "locks": [],
+    "key": "767a5573-9241-4e9d-aca1-d4a959e89c3e",
+    "files": []
+  }
+}

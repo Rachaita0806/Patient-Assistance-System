@@ -1,0 +1,40 @@
+{
+  "docVersion": "1.0.0",
+  "resource": {
+    "name": "DoctorApprovalApp",
+    "kind": "app",
+    "type": "workflow Action",
+    "apiVersion": "apps.uipath.com/v1",
+    "projectKey": "d520db28-b9da-4960-a9ea-22b6088eab58",
+    "isOverridable": true,
+    "dependencies": [
+      {
+        "name": "DoctorApprovalApp",
+        "kind": "appVersion"
+      },
+      {
+        "name": "DoctorApprovalApp",
+        "kind": "process"
+      }
+    ],
+    "runtimeDependencies": [],
+    "folders": [
+      {
+        "fullyQualifiedName": "solution_folder"
+      }
+    ],
+    "spec": {
+      "name": "DoctorApprovalApp",
+      "type": "workflow Action",
+      "appVersionRef": {
+        "key": "c15a2c3a-1853-4ac0-9dd5-5bd0dfc0a0a0"
+      },
+      "codeBehindProcess": {
+        "key": "696c1908-0402-400a-84d5-3c645449feaa"
+      }
+    },
+    "locks": [],
+    "key": "d28a0f0a-5911-4588-9a5e-d9418862b845",
+    "files": []
+  }
+}
