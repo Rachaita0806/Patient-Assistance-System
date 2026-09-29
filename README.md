@@ -51,7 +51,9 @@ Send Email
 * Workflow Automation
 * Gmail integration
 
-📂 Project Structure
+## 📂 Project Structure
+
+```text
 Patient-Assistance-System/
 │
 ├── DoctorApprovalApp/
@@ -63,16 +65,18 @@ Patient-Assistance-System/
 ├── resources/
 ├── SolutionStorage/
 └── Patient Assistance System.uipx
+```
 
-⚙️ Setup
-Open the project in UiPath Studio Web.
-Configure the required UiPath connections.
-Make sure the required resources and integrations are available.
-Open and run the required workflow/application.
+## ⚙️ Setup
 
-🔐 Security
+* Open the project in UiPath Studio Web.
+* Configure the required UiPath connections.
+* Make sure the required resources and integrations are available.
+* Open and run the required workflow/application.
+
+## 🔐 Security
 No passwords, API keys, access tokens, or other authentication credentials are included in this repository.
 Required connections and authentication should be configured securely through UiPath.
 
-📄 Note
+## 📄 Note
 This repository contains the project files for the Patient Assistance System and is intended for demonstration and educational purposes.
