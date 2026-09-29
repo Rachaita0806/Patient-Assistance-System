@@ -74,9 +74,31 @@ Patient-Assistance-System/
 * Make sure the required resources and integrations are available.
 * Open and run the required workflow/application.
 
+## ✨ Features
+
+* Automated patient query assistance
+* AI-assisted severity analysis
+* Doctor approval workflow
+* Automated email generation
+* Email sending through UiPath integration
+* Multi-component workflow orchestration
+
+## 📋 Requirements
+
+* UiPath Studio Web
+* Required UiPath Apps/Agents
+* Configured email connection
+* Appropriate UiPath permissions
+
 ## 🔐 Security
+
 No passwords, API keys, access tokens, or other authentication credentials are included in this repository.
 Required connections and authentication should be configured securely through UiPath.
 
 ## 📄 Note
+
 This repository contains the project files for the Patient Assistance System and is intended for demonstration and educational purposes.
+
+## 👩‍💻 Author
+
+**Rachaita Bhattacharjee**
