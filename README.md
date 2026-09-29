@@ -99,6 +99,15 @@ Required connections and authentication should be configured securely through Ui
 
 This repository contains the project files for the Patient Assistance System and is intended for demonstration and educational purposes.
 
+## 📸 Screenshots
+![Screenshot 2026-09-27 135823.png](screenshots/Screenshot%202026-09-27%20135823.png)
+
+![Screenshot 2026-09-27 140728.png](screenshots/Screenshot%202026-09-27%20140728.png)
+
+![Screenshot 2026-09-29 213048.png](screenshots/Screenshot%202026-09-29%20213048.png)
+
+![Screenshot 2026-09-29 213140.png](screenshots/Screenshot%202026-09-29%20213140.png)
+
 ## 👩‍💻 Author
 
 **Rachaita Bhattacharjee**
