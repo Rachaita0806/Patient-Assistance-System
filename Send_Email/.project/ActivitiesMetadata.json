@@ -1,0 +1,47 @@
+{
+  "Main.xaml": [
+    {
+      "FullName": null,
+      "ActivityIdRef": "SendEmailConnections_1",
+      "IsCollapsed": false,
+      "IsEnabled": true,
+      "RequiresConfiguration": false,
+      "PropertiesBackendMetadata": [
+        {
+          "PropertyName": "ConnectionId",
+          "RenderType": 0,
+          "Widget": "SolutionResource",
+          "Conversion": null
+        },
+        {
+          "PropertyName": "SaveAsDraft",
+          "RenderType": 0,
+          "Widget": "NullableBoolean",
+          "Conversion": null
+        },
+        {
+          "PropertyName": "To",
+          "RenderType": 3,
+          "Widget": null,
+          "Conversion": {
+            "ConvertedExpression": "Enumerable.Repeat(Email, 1).ToList()",
+            "OriginalExpression": "Email"
+          }
+        },
+        {
+          "PropertyName": "Body",
+          "RenderType": 1,
+          "Widget": null,
+          "Conversion": null
+        },
+        {
+          "PropertyName": "Subject",
+          "RenderType": 3,
+          "Widget": null,
+          "Conversion": null
+        }
+      ],
+      "Status": 0
+    }
+  ]
+}
